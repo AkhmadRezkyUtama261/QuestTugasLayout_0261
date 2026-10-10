@@ -2,5 +2,12 @@
     <string name="app_name">QuestTugasLayout_0261</string>
     <string name="title_prodi">Teknologi Informasi</string>
     <string name="title_univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama_mahasiswa">Akhmad Rezky Utama</string>
+    <string name="no_telepon">085436874190</string>
+    <string name="alamat_turi">Turi, Sleman</string>
+    <string name="alamat_kasihan">Kasihan, Bantul</string>
+    <string name="alamat_depok">Depok, Sleman</string>
+    <string name="alamat_gamping">Gamping, Sleman</string>
     <string name="copyright_text">Copyright, 2026</string>
+    <string name="desc_logo_umy">Logo Universitas Muhammadiyah Yogyakarta</string>
 </resources>
