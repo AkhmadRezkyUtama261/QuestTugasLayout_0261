@@ -81,5 +81,12 @@ fun TugasLayoutScreen(modifier: Modifier = Modifier) {
                 isCursive = false
             )
         }
+
+        Text(
+            text = stringResource(id = R.string.copyright_text),
+            fontSize = 12.sp,
+            color = colorResource(id = R.color.text_secondary),
+            modifier = Modifier.padding(bottom = 12.dp)
+        )
     }
 }
