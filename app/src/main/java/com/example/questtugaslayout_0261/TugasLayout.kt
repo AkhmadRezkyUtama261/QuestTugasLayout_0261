@@ -41,7 +41,7 @@ fun TugasLayoutScreen(modifier: Modifier = Modifier) {
                 modifier = Modifier.padding(top = 2.dp, bottom = 20.dp)
             )
 
-            // Card 1: Bambang Sumantri -> Akhmad Rezky Utama (Gray background, cursive, no phone, yellow address)
+            // Card 1: Akhmad Rezky Utama (Gray background, cursive, no phone, yellow address)
             CustomCard(
                 cardBackgroundRes = R.color.card_gray,
                 nameRes = R.string.nama_mahasiswa,
@@ -49,6 +49,16 @@ fun TugasLayoutScreen(modifier: Modifier = Modifier) {
                 addressColorRes = R.color.text_yellow,
                 phoneRes = null,
                 isCursive = true
+            )
+
+            // Card 2: Akhmad Rezky Utama (Purple background, phone, yellow address)
+            CustomCard(
+                cardBackgroundRes = R.color.card_purple,
+                nameRes = R.string.nama_mahasiswa,
+                addressRes = R.string.alamat_kasihan,
+                addressColorRes = R.color.text_yellow,
+                phoneRes = R.string.no_telepon,
+                isCursive = false
             )
         }
     }
