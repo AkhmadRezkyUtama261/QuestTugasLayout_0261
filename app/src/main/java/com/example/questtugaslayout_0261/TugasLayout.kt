@@ -40,6 +40,16 @@ fun TugasLayoutScreen(modifier: Modifier = Modifier) {
                 color = colorResource(id = R.color.text_primary),
                 modifier = Modifier.padding(top = 2.dp, bottom = 20.dp)
             )
+
+            // Card 1: Bambang Sumantri -> Akhmad Rezky Utama (Gray background, cursive, no phone, yellow address)
+            CustomCard(
+                cardBackgroundRes = R.color.card_gray,
+                nameRes = R.string.nama_mahasiswa,
+                addressRes = R.string.alamat_turi,
+                addressColorRes = R.color.text_yellow,
+                phoneRes = null,
+                isCursive = true
+            )
         }
     }
 }
